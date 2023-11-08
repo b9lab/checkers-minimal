@@ -13,6 +13,8 @@ message Params {}
 message GenesisState {
   // params defines all the parameters of the module.
   Params params = 1 [ (gogoproto.nullable) = false ];
+
+  repeated IndexedStoredGame indexedStoredGameList = 2 [(gogoproto.nullable) = false];
 }
 
 message StoredGame {
@@ -20,4 +22,9 @@ message StoredGame {
   string turn = 2;
   string black = 3 [(cosmos_proto.scalar) = "cosmos.AddressString"];
   string red = 4 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+}
+
+message IndexedStoredGame {
+  string index = 1;
+  StoredGame storedGame = 2 [(gogoproto.nullable) = false];
 }
