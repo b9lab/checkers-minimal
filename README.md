@@ -28,3 +28,4 @@ Here is the list of branches:
 * [`root-files`](../../tree/root-files), [diff](../../compare/first-types..root-files)
 * [`keeper-files`](../../tree/keeper-files), [diff](../../compare/root-files..keeper-files)
 * [`module-files`](../../tree/module-files), [diff](../../compare/keeper-files..module-files)
+* [`rules-file`](../../tree/rules-file), [diff](../../compare/module-files..rules-file)
