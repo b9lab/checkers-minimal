@@ -27,3 +27,4 @@ Here is the list of branches:
 * [`first-types`](../../tree/first-types), [diff](../../compare/first-proto-gen..first-types)
 * [`root-files`](../../tree/root-files), [diff](../../compare/first-types..root-files)
 * [`keeper-files`](../../tree/keeper-files), [diff](../../compare/root-files..keeper-files)
+* [`module-files`](../../tree/module-files), [diff](../../compare/keeper-files..module-files)
