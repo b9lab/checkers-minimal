@@ -1,0 +1,16 @@
+syntax = "proto3";
+package alice.checkers.v1;
+
+option go_package = "github.com/alice/checkers";
+
+import "cosmos_proto/cosmos.proto";
+import "gogoproto/gogo.proto";
+
+// Params defines the parameters of the module.
+message Params {}
+
+// GenesisState is the state that must be provided at genesis.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [ (gogoproto.nullable) = false ];
+}

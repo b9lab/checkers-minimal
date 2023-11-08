@@ -21,7 +21,7 @@ buf generate --template buf.gen.pulsar.yaml
 
 cd ..
 
-# cp -r github.com/alice/checkers/* ./
+cp -r github.com/alice/checkers/* ./
 rm -rf api && mkdir api
 mv alice/checkers/* ./api
 rm -rf github.com alice
