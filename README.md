@@ -29,3 +29,4 @@ Here is the list of branches:
 * [`keeper-files`](../../tree/keeper-files), [diff](../../compare/root-files..keeper-files)
 * [`module-files`](../../tree/module-files), [diff](../../compare/keeper-files..module-files)
 * [`rules-file`](../../tree/rules-file), [diff](../../compare/module-files..rules-file)
+* [`stored-game`](../../tree/stored-game), [diff](../../compare/rules-file..stored-game)
