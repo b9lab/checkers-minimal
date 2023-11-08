@@ -6,5 +6,6 @@ const ModuleName = "checkers"
 const MaxIndexLength = 256
 
 var (
-	ParamsKey = collections.NewPrefix("Params")
+	ParamsKey      = collections.NewPrefix("Params")
+	StoredGamesKey = collections.NewPrefix("StoredGames/value/")
 )
