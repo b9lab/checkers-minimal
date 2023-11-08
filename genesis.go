@@ -13,5 +13,19 @@ func (gs *GenesisState) Validate() error {
 		return err
 	}
 
+	unique := make(map[string]bool)
+	for _, indexedStoredGame := range gs.IndexedStoredGameList {
+		if length := len([]byte(indexedStoredGame.Index)); MaxIndexLength < length || length < 1 {
+			return ErrIndexTooLong
+		}
+		if _, ok := unique[indexedStoredGame.Index]; ok {
+			return ErrDuplicateAddress
+		}
+		if err := indexedStoredGame.StoredGame.Validate(); err != nil {
+			return err
+		}
+		unique[indexedStoredGame.Index] = true
+	}
+
 	return nil
 }
