@@ -24,3 +24,4 @@ Here is the list of branches:
 * [`initial-protobuf`](../../tree/initial-protobuf)
 * [`prevent-error`](../../tree/prevent-error), [diff](../../compare/initial-protobuf..prevent-error)
 * [`first-proto-gen`](../../tree/first-proto-gen), [diff](../../compare/prevent-error..first-proto-gen)
+* [`first-types`](../../tree/first-types), [diff](../../compare/first-proto-gen..first-types)
