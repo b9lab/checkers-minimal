@@ -31,3 +31,4 @@ Here is the list of branches:
 * [`rules-file`](../../tree/rules-file), [diff](../../compare/module-files..rules-file)
 * [`stored-game`](../../tree/stored-game), [diff](../../compare/rules-file..stored-game)
 * [`genesis-games`](../../tree/genesis-games), [diff](../../compare/stored-game..genesis-games)
+* [`game-validation`](../../tree/game-validation), [diff](../../compare/genesis-games..game-validation)
